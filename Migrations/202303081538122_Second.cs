@@ -6,7 +6,7 @@
     public partial class Second : DbMigration
     {
         public override void Up()
-        {
+        { 
             CreateTable(
                 "dbo.Products",
                 c => new
