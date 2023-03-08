@@ -10,9 +10,13 @@ namespace P203.Data
     public class DataContext:DbContext
     {
         DbSet<Customer> Customers { get; set; }
+        DbSet<Provider> Providers { get; set; }
+        DbSet<Product> Products { get; set; }
         public DataContext() : base("name=con")
         {
-                       
+        
+            
+
         }
         
 
