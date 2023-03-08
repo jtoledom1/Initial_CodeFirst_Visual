@@ -10,7 +10,7 @@
             CreateTable(
                 "dbo.Products",
                 c => new
-                    {
+                    { 
                         Id = c.Int(nullable: false, identity: true),
                         Name = c.String(),
                         Description = c.String(),
