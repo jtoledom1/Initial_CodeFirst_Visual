@@ -58,6 +58,12 @@
   <ItemGroup>
     <Compile Include="Data\Customer.cs" />
     <Compile Include="Data\DataContext.cs" />
+    <Compile Include="FrmCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCustomers.Designer.cs">
+      <DependentUpon>FrmCustomers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">

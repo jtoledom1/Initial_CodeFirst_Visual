@@ -9,10 +9,10 @@ namespace P203.Data
 {
     public class DataContext:DbContext
     {
-        public DataContext():base("name=con")
+        DbSet<Customer> Customers { get; set; }
+        public DataContext() : base("name=con")
         {
-
-            
+                       
         }
         
 
